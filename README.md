@@ -1,5 +1,13 @@
 # 程序设计周-随手记账
-## 准备
+### 项目结构
+
+![image-20210318223531911](https://zlhad.oss-cn-shanghai.aliyuncs.com/img/20210318223531.png)
+
+## 技术栈：
+
+React+Electron框架，使用Material-UI作为UI组件。
+
+### 准备
 
 安装node.js
 
