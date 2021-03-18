@@ -1,0 +1,52 @@
+{
+  "name": "c-account-book",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/main.js",
+  "dependencies": {
+    "@date-io/date-fns": "^1.3.13",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/pickers": "^3.2.10",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "date-fns": "^2.16.1",
+    "electron": "^10.1.3",
+    "fontsource-roboto": "^3.0.3",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-redux": "^7.2.1",
+    "react-scripts": "3.4.3",
+    "react-swipeable-views": "^0.13.9",
+    "xlsx": "^0.16.8"
+  },
+  "scripts": {
+    "electron-dev": "electron . dev",
+    "electron": "electron .",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "package": "electron-packager E:/GIT/CAccountBook/build CAccountBook --icon=./public/logo192.png --out E:/GIT/CAccountBook/ --electron-version 10.1.3"
+
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "electron-packager": "^15.2.0"
+  }
+}
